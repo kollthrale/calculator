@@ -3,7 +3,7 @@ require 'pry'
 def get_first_number
 	puts 'what is the first number'
 	@first_number = STDIN.gets.strip.to_i
-	if @first_number == 0
+	if @first_number == 0  
 		get_first_number
 	end
 	get_operator
@@ -18,7 +18,7 @@ end
 def get_second_number
 	puts 'what is the second number'
 	@second_number = STDIN.gets.strip.to_i
-	if @second_number == 0
+	if @second_number == 0 
 		get_second_number
 	end
 	calculate
@@ -44,4 +44,56 @@ end
 
 
 get_first_number
+
+
+
+
+
+
+
+
+
+# def get_first_number 
+# 	puts 'what is the first number'
+# 		first_number = strip.to.i 
+# 		if first_number == 0
+# 			get_first_number 
+# 		end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
